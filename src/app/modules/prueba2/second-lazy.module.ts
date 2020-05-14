@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { Prueba2RoutingModule } from './prueba2-routing.module';
+import { SecondLazyRoutingModule } from './second-lazy-routing.module';
 import { Prueba2Component } from './views/prueba2/prueba2.component';
 
 
@@ -9,7 +9,7 @@ import { Prueba2Component } from './views/prueba2/prueba2.component';
   declarations: [Prueba2Component],
   imports: [
     CommonModule,
-    Prueba2RoutingModule
+    SecondLazyRoutingModule
   ]
 })
-export class Prueba2Module { }
+export class SecondLazyModule { }

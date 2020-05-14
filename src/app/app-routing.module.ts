@@ -6,15 +6,15 @@ const routes: Routes = [
   {
   path: 'login',
   loadChildren: () =>
-    import('./modules/prueba1/prueba1.module').then(
-      m => m.Prueba1Module
+    import('./modules/prueba1/first-lazy.module').then(
+      m => m.FirstLazyModule
     )
 },
 {
   path: 'login2',
   loadChildren: () =>
-    import('./modules/prueba2/prueba2.module').then(
-      m => m.Prueba2Module
+    import('./modules/prueba2/second-lazy.module').then(
+      m => m.SecondLazyModule
     )
 },
 {

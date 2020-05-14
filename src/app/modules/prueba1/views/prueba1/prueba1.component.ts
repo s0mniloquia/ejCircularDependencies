@@ -4,12 +4,11 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-prueba1',
-  templateUrl: './prueba1.component.html',
-  styleUrls: ['./prueba1.component.scss']
+  templateUrl: './prueba1.component.html'
 })
 export class Prueba1Component implements OnInit {
 
-  constructor(private pruebaService: Prueba1Service, private routeActivated: ActivatedRoute) { }
+  constructor(private routeActivated: ActivatedRoute) { }
 
   ngOnInit(): void {
     console.log('El valor en el componente es ',this.routeActivated.snapshot.data['data']);

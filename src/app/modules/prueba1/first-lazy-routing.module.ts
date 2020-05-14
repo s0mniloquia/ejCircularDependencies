@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class Prueba1RoutingModule { }
+export class FirstLazyRoutingModule { }

@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { of } from 'rxjs';
-import { LazyServiceModule } from './lazy-service.module';
+import { FirstLazyModule } from '../first-lazy.module';
 
-@Injectable({providedIn: LazyServiceModule})
+@Injectable({providedIn: FirstLazyModule})
 export class Prueba1Service {
 
   constructor() { }
